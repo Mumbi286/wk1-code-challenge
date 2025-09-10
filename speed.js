@@ -11,7 +11,7 @@ else if(speed < 70){   //checks the condition if it is more than 70
     let excess = speed - 70;
     let points = Math.floor(excess / 5)  //math.floor returns the value rounded down to the nearest integer
 
-if(points > 12 ){
+if(points > 12 ){ //suspenstion condition
     console.log("License suspended")
 }else{
     console.log(`points:${points}`)// string interpolation lets one dynamically insert values in the middle of a string.
